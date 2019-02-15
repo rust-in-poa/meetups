@@ -11,6 +11,5 @@ deploy:
     github-token: $GITHUB_TOKEN
     repo: rust-in-poa/rust-in-poa.github.io
     target-branch: master
-    verbose: true
     on:
         branch: master
