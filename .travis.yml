@@ -10,5 +10,6 @@ deploy:
     local-dir: public
     github-token: $GITHUB_TOKEN
     repo: rust-in-poa.github.io
+    target-branch: master
     on:
         branch: master
