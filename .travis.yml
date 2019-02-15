@@ -9,7 +9,7 @@ deploy:
     skip-cleanup: true
     local-dir: public
     github-token: $GITHUB_TOKEN
-    repo: rust-in-poa.github.io
+    repo: rust-in-poa/rust-in-poa.github.io
     target-branch: master
     verbose: true
     on:
