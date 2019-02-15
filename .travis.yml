@@ -1,0 +1,14 @@
+before_script:
+    - curl -s -L https://github.com/getzola/zola/releases/download/v0.5.0/zola-v0.5.0-x86_64-unknown-linux-gnu.tar.gz | sudo tar xvzf - -C /usr/local/bin
+
+script:
+    - zola build
+
+deploy:
+    provider: pages
+    skip-cleanup: true
+    local-dir: public
+    github-token: $GITHUB_TOKEN
+    repo: rust-in-poa.github.io
+    on:
+        branch: master
