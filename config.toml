@@ -19,3 +19,5 @@ theme = "hyde"
 
 [extra]
 # Put all your custom variables here
+hyde_theme = "theme-base-0f"
+hyde_reverse = true
